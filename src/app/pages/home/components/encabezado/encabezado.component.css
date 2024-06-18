@@ -1,0 +1,140 @@
+.fondo {
+    height: 50vw;
+    position: absolute;
+    opacity: 0.5;
+    overflow: hidden;
+}
+
+header {
+    position: relative;
+    /*
+    background-color: transparent;
+    */
+
+}
+
+nav {
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+/*<img src="../../../../../assets/metflix.png" alt=""height="200px" width="auto">*/
+.Letras {
+    background: url("../../../../../assets/metflix.png");
+    background-position: center;
+    background-position: center;
+    background-size: cover;
+    height: 70px;
+    width: 50px; 
+}
+.traducir{
+    height: 20px;
+    padding-left: 5px;
+    padding-right: 6px;
+
+}
+
+#traducirpag{
+    border: solid gray;
+    background-color: transparent;
+}
+
+.btn-danger {
+    margin: 20px;
+    align-items: end;
+    background-color: #E50914;
+    
+}
+
+.Parrafodeinicio {
+    text-align: center;
+}
+
+.Botonescentrales {
+    text-align: center;
+}
+.Divbotones{
+    display: flex;
+    justify-content: center;
+    
+}
+.btn-primary{
+    background-color: #E50914;
+    
+}
+#floatingInputGrid{
+    background-color: rgba(0, 0, 0,0.5) !important;
+    
+
+}
+p{
+    height: 10px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 20px;
+}
+.palomitas{
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    margin: 0 60px 0 60px;
+    background: radial-gradient(circle at 50% 40%, #ad2864, #1c1dab, #010111);
+}
+.imgpalomitas{
+    margin: 30px 30px 0 0;
+    height: 100px;
+    width: 100px;
+}
+.divpalomitas{
+    height: 200px;
+}
+.divpalomitasdescripcion p{
+    height: 20px;
+    font-size: 20px;
+    overflow: hidden;
+
+}
+.divpalomitasdescripcion{
+    margin-top: 40px;
+}
+
+main{
+    background-color: black;
+}
+.presentacion{
+    height: 30vw;
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+}
+.letraspresentacion{
+    width: 50%;
+    text-align: center;
+    padding-top: 150px;
+}
+.television{
+width: 50%;
+justify-content: center;
+align-items: center;
+}
+.imgtelevision{
+    position: absolute;
+}
+.gif{
+    position: relative;
+    padding: 92px 80px 80px 80px;
+}
