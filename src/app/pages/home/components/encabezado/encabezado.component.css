@@ -174,19 +174,24 @@ padding-right: 10px;
     display: flex;
     border: solid;
     border-color: gray;
-    border-radius: 20px;
+    border-radius: 10px;
     width: 300px;
     height: 120px;
     background-color: #010111 !important;
     padding: 20px;
     justify-content: center;
+    overflow: hidden;
 
 }
 .imgStrangerThings{
-height: 80px;
+height: 100px;
+width: 20%;
+margin: 0 10px 0 10px;
 }
 .gifdescarga{
-height: 80px;
+height: 60px;
+width: 20%;
 }
 .parrafostranger{
+    width: 60%;
 }
